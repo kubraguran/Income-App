@@ -1,0 +1,190 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice</title>
+    <link href ="invoice.css" rel="stylesheet">
+    <script src ="invoice.js"></script>
+    <link href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container-sm">
+        <!--Hata bu kisimda-->
+      <div class="container" id ="body" style= "width:75rem; height:45rem;">
+        <div class = "row">
+            <div class="col-3 border navbar-side order-1 mx-1" style= "border-radius: 40px; position: absolute;">
+                <span><a href ="#"><svg xmlns="http://www.w3.org/2000/svg"  id ="submit"width="25" height="25" fill="currentColor" style="display:inline-block; margin-left:2rem; margin-bottom:-4rem; margin-top:3rem; " class="bi bi-moon" viewBox="0 0 16 16">
+                    <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278zM4.858 1.311A7.269 7.269 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.316 7.316 0 0 0 5.205-2.162c-.337.042-.68.063-1.029.063-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286z"/>
+              </svg></a></span>
+                
+             <p class ="profile"><img src = "https://www.adobe.com/express/create/media_141efea30cca217e8cb7fb3abb8ed9d663c29d550.jpeg?width=2000&format=webply&optimize=medium" style ="width: 4rem; height:4rem; border-radius: 50%; margin-left:10rem;"></p>
+             <br>
+             <br>
+             <p class = "form ">
+                <form class="textSearch">
+                    <input class="form-control me-2" type="search" style="border-radius: 40px;" placeholder="Search" aria-label="Search">
+                  </form>
+                  </p>
+                  <div class = "income"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-right shadow-sm mb-5" style ="color:green; margin-top:3.2rem; border-radius:50%;"viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                  </svg><span style ="margin-top:3rem; margin-left:1.5rem; font-size: larger;">Income</span><span style ="margin-top: 3rem; margin-left:1.5rem; font-size: larger;">+$3,498.<span class ="fw-lighter">21</span></span></div>
+                  <hr style="width: 100%; float:left; display:flex; margin-top:-2rem; ">
+                  <div class = "income"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-left shadow-sm mb-5"style ="margin-top:-0.9rem;border-radius:50%;" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+                  </svg><span style ="margin-top:-1rem; margin-left:1.5rem; font-size: larger;">Expenses</span><span style ="margin-top: -1rem; margin-left:1.5rem; font-size: larger;">-$123.<span class ="fw-lighter">38</span></span></div>
+
+                  <div class = "menu">
+                      <p>Quick menu</p>
+                      <span style ="width: 2rem; height: 2rem; margin-top:2rem; margin-left:-3.5rem;">
+                        <button type="button" class="btn btn-primary btn-md" style ="width: 4.5rem; height: 4.5rem; background: linear-gradient(90deg, hsla(298, 21%, 71%, 1) 1%, hsla(356, 29%, 88%, 1) 100%); border:transparent"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                            <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+                          </svg></button>
+                        <button type="button" class="btn btn-secondary btn-md my-4" style ="width: 4.5rem; height: 4.5rem; background: linear-gradient(90deg, hsla(298, 21%, 71%, 1) 1%, hsla(356, 29%, 88%, 1) 100%); border:transparent"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-archive" viewBox="0 0 16 16">
+                            <path d="M0 2a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1v7.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 12.5V5a1 1 0 0 1-1-1V2zm2 3v7.5A1.5 1.5 0 0 0 3.5 14h9a1.5 1.5 0 0 0 1.5-1.5V5H2zm13-3H1v2h14V2zM5 7.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
+                          </svg></button>
+                       </span>
+                       <span style ="width: 2rem; height: 2rem; margin-top:2rem; margin-left:3rem;">
+                        <button type="button" class="btn btn-primary btn-lg shadow-sm" style ="margin-left: -0.7rem; margin-top:-0.5rem; height: 6rem; width: 6rem; background: linear-gradient(90deg, hsla(298, 21%, 71%, 1) 1%, hsla(356, 29%, 88%, 1) 100%); border:transparent"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person-check" viewBox="0 0 16 16">
+                            <path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H1s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C9.516 10.68 8.289 10 6 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+                            <path fill-rule="evenodd" d="M15.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L12.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0z"/>
+                          </svg></button>
+                        <button type="button" class="btn btn-secondary btn-md my-2" style ="width: 4.5rem; height: 4.5rem; background: linear-gradient(90deg, hsla(298, 21%, 71%, 1) 1%, hsla(356, 29%, 88%, 1) 100%); border:transparent"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-journal-bookmark" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M6 8V1h1v6.117L8.743 6.07a.5.5 0 0 1 .514 0L11 7.117V1h1v7a.5.5 0 0 1-.757.429L9 7.083 6.757 8.43A.5.5 0 0 1 6 8z"/>
+                            <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z"/>
+                            <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z"/>
+                          </svg></button>
+                       </span>
+                       <span style ="width: 2rem; height: 2rem; margin-top:2rem; margin-left:3rem;">
+                        <button type="button" class="btn btn-primary btn-md" style ="width: 4.5rem; height: 4.5rem; background: radial-gradient(circle, hsla(300, 16%, 83%, 1) 3%, hsla(356, 29%, 88%, 1) 100%); border:transparent"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-calendar-day" viewBox="0 0 16 16">
+                            <path d="M4.684 11.523v-2.3h2.261v-.61H4.684V6.801h2.464v-.61H4v5.332h.684zm3.296 0h.676V8.98c0-.554.227-1.007.953-1.007.125 0 .258.004.329.015v-.613a1.806 1.806 0 0 0-.254-.02c-.582 0-.891.32-1.012.567h-.02v-.504H7.98v4.105zm2.805-5.093c0 .238.192.425.43.425a.428.428 0 1 0 0-.855.426.426 0 0 0-.43.43zm.094 5.093h.672V7.418h-.672v4.105z"/>
+                            <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+                          </svg></button>
+                        <button type="button" class="btn btn-secondary btn-md my-4" style ="width: 4.5rem; height: 4.5rem; background: linear-gradient(90deg, hsla(298, 21%, 71%, 1) 1%, hsla(356, 29%, 88%, 1) 100%); border:transparent"> <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
+                            <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+                          </svg></button>
+                       </span>
+    
+                      
+                  </div>
+                 
+              </div>
+             <div class="container-sm " style ="margin-left: 10rem;">
+                <div class="col order-2">
+                    <nav class="navbar navbar-expand-lg navbar-light mt-5 mx-5">
+                        <div class="container-fluid">
+                          <a class="navbar-brand" href="#"><button type="button" class="btn btn-primary btn-sm" style= "border-radius:10px; background: linear-gradient(90deg, hsla(358, 66%, 71%, 1) 0%, hsla(358, 47%, 85%, 1) 100%); border:transparent;">Dashboard</button></a>
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                              <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#"> <button type="button" class="btn btn-secondary btn-sm"style= "border-radius:10px; background: linear-gradient(90deg, hsla(358, 66%, 71%, 1) 0%, hsla(358, 47%, 85%, 1) 100%); border:transparent;">Transactions</button></a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#"><button type="button" class="btn btn-primary btn-sm"style= "border-radius:10px; background: linear-gradient(90deg, hsla(358, 66%, 71%, 1) 0%, hsla(358, 47%, 85%, 1) 100%); border:transparent;">Customers</button></a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#"><button type="button" class="btn btn-secondary btn-sm"style= "border-radius:10px; background: linear-gradient(90deg, hsla(358, 66%, 71%, 1) 0%, hsla(358, 47%, 85%, 1) 100%); border:transparent;">Invoices</button></a>
+                              </li>
+                            </ul>
+                            <button type="button" class="btn btn-primary btn-lg" style= "border-radius: 10px; background: linear-gradient(90deg, hsla(358, 66%, 71%, 1) 0%, hsla(358, 47%, 85%, 1) 100%); border:transparent;"><span><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"  style= "margin-right:0.3rem; border-radius:50%; border:transparent;"fill="currentColor" class="bi bi-file-earmark-plus" viewBox="0 0 16 16">
+                                <path d="M8 6.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V11a.5.5 0 0 1-1 0V9.5H6a.5.5 0 0 1 0-1h1.5V7a.5.5 0 0 1 .5-.5z"/> 
+                                <path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5L14 4.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5h-2z"/>
+                              </svg></span>Add invoice</button>
+                          </div>
+                        </div>
+                      </nav>
+                      
+                    <h3 style= "margin-left:4.5rem; margin-top: 2.5rem;">Dashboard</h3>
+                      <div class = "patch">
+                          <div class="box-1 "><span><svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-twitch shadow-lg p-1 mb-5 bg-body" viewBox="0 0 16 16" style= "margin-left:1rem; margin-top:1.5rem; border-radius:50%;">
+                            <path d="M3.857 0 1 2.857v10.286h3.429V16l2.857-2.857H9.57L14.714 8V0H3.857zm9.714 7.429-2.285 2.285H9l-2 2v-2H4.429V1.143h9.142v6.286z"/>
+                            <path d="M11.857 3.143h-1.143V6.57h1.143V3.143zm-3.143 0H7.571V6.57h1.143V3.143z"/>
+                          </svg></span><p1>Payment Due In</p1><p2>9 days</p2><br><p3>$9</p3><p4 class="fw-lighter"> .38</p4></div>
+                          <div class="box-2 "><span><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-skype shadow-lg p-1 mb-5 bg-body" viewBox="0 0 16 16"style= "margin-left:1rem; margin-top:1.5rem; border-radius:50%;">
+                            <path d="M4.671 0c.88 0 1.733.247 2.468.702a7.423 7.423 0 0 1 6.02 2.118 7.372 7.372 0 0 1 2.167 5.215c0 .344-.024.687-.072 1.026a4.662 4.662 0 0 1 .6 2.281 4.645 4.645 0 0 1-1.37 3.294A4.673 4.673 0 0 1 11.18 16c-.84 0-1.658-.226-2.37-.644a7.423 7.423 0 0 1-6.114-2.107A7.374 7.374 0 0 1 .529 8.035c0-.363.026-.724.08-1.081a4.644 4.644 0 0 1 .76-5.59A4.68 4.68 0 0 1 4.67 0zm.447 7.01c.18.309.43.572.729.769a7.07 7.07 0 0 0 1.257.653c.492.205.873.38 1.145.523.229.112.437.264.615.448.135.142.21.331.21.528a.872.872 0 0 1-.335.723c-.291.196-.64.289-.99.264a2.618 2.618 0 0 1-1.048-.206 11.44 11.44 0 0 1-.532-.253 1.284 1.284 0 0 0-.587-.15.717.717 0 0 0-.501.176.63.63 0 0 0-.195.491.796.796 0 0 0 .148.482 1.2 1.2 0 0 0 .456.354 5.113 5.113 0 0 0 2.212.419 4.554 4.554 0 0 0 1.624-.265 2.296 2.296 0 0 0 1.08-.801c.267-.39.402-.855.386-1.327a2.09 2.09 0 0 0-.279-1.101 2.53 2.53 0 0 0-.772-.792A7.198 7.198 0 0 0 8.486 7.3a1.05 1.05 0 0 0-.145-.058 18.182 18.182 0 0 1-1.013-.447 1.827 1.827 0 0 1-.54-.387.727.727 0 0 1-.2-.508.805.805 0 0 1 .385-.723 1.76 1.76 0 0 1 .968-.247c.26-.003.52.03.772.096.274.079.542.177.802.293.105.049.22.075.336.076a.6.6 0 0 0 .453-.19.69.69 0 0 0 .18-.496.717.717 0 0 0-.17-.476 1.374 1.374 0 0 0-.556-.354 3.69 3.69 0 0 0-.708-.183 5.963 5.963 0 0 0-1.022-.078 4.53 4.53 0 0 0-1.536.258 2.71 2.71 0 0 0-1.174.784 1.91 1.91 0 0 0-.45 1.287c-.01.37.076.736.25 1.063z"/>
+                          </svg></span><p1>Payment Due In</p1><p2>6 days</p2><br><p3>$8</p3><p4 class="fw-lighter">.99</p4></div>
+                          <div class="box-3 "><span><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-linkedin shadow-lg p-1 mb-5 bg-body" viewBox="0 0 16 16"style= "margin-left:1rem; margin-top:1.5rem; border-radius:50%;">
+                            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                          </svg></span><p1>Payment Due In</p1><p2>15 days</p2><br><p3>$3</p3><p4 class="fw-lighter">.99</p4></div>
+                          <span><a href ="#"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-arrow-right-circle shadow  mb-5 bg-body " viewBox="0 0 16 16" style ="margin-left:38rem; margin-top:-8rem;" id ="icon">
+                            <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+                          </svg></a></span>
+            
+                      </div>
+                      <br>
+                      <div class="secondPatch">
+                          <p1 class="fw-light"style ="display: flex; margin-bottom:1rem;">Last weeks balance</p1>
+                          <div id = "secondPatchBox" class="box"><p class ="text1"><img src ="https://goldprice.org/sites/default/files/inline/images/btc.PNG" style= "width:15rem;height:8rem; margin-left:-1.5rem; margin-top:1rem; border-radius: 40px; box-shadow: 10px 10px 149px -43px rgba(0,0,0,0.85);"></p></div>
+                      </div>
+    
+                      <div class="thirdPatch">
+                        <p1 class="fw-light"style ="display: flex;">Recent transactions</p1>
+                        <div class="thirdPatchBox"><p class ="profile"><img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBwgu1A5zgPSvfE83nurkuzNEoXs9DMNr8Ww&usqp=CAU" style= "width: 3.5rem; height: 3.5rem; border-radius: 50%;"></p>
+                        <p class ="profile"><img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3i_qZtrjSgoPCyIOywhlX8MKOzRIaQbKU0A&usqp=CAU"style= "width: 3.5rem; height: 3.5rem; border-radius: 50%;"></p>
+                        <p class ="profile"><img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVkhLkPoA1nX_KXMEC2FHkQeerMNmqIiiiYA&usqp=CAU"style= "width: 3.5rem; height: 3.5rem; border-radius: 50%;"></p>
+                        </div>
+                        <div class="nameBox">
+                            <p1 class= "name">Eve J.</p1>
+                            <p1 class= "name">Thomas K.</p1>
+                            <p1 class= "name">Jan J.</p1>
+                            
+                        </div>
+                        <div class="icons">
+                            <p1 class ="iconShow"><span><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" style ="color:green;" class="bi bi-arrow-right-circle me-4" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+                              </svg></span></p1>
+                            <p1 class ="iconShow"><span><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
+                              </svg></span></p1>
+                            <p1 class ="iconShow"><span><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" style ="color:green;"class="bi bi-arrow-right-circle mx-2" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+                              </svg></span></p1>
+                        </div>
+                        <div class="incomes">
+                            <p1 class ="income">+$240.00</p1>
+                            <p1 class ="income">-$23.38</p1>
+                            <p1 class ="income">+$199.99</p1>
+                        </div>
+                      </div>
+    
+    
+    
+                      
+                  </div>
+             </div>
+              
+       </div>
+       
+      
+
+        
+          
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!--Main div -->
+     </div>
+    </div>
+    
+</body>
+</html>
+<!-- Inspired from https://dribbble.com/shots/6973904-Invoice-dashboard-Debut/attachments/4537?mode=media -->
+

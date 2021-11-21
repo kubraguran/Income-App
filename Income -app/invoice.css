@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.container-sm {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;  
+   
+    
+   
+}
+.color {
+   background-color: black;
+}
+
+.container{
+    
+    width: 70rem;
+    border-radius: 40px;
+    flex-direction: column;  
+    background-image: url("https://wallpaperaccess.com/full/5926624.jpg");
+    background-size: cover;
+
+   
+}
+.navbar-side {
+    height: 45rem;
+    background: linear-gradient(90deg, hsla(300, 100%, 99%, 1) 6%, hsla(356, 29%, 88%, 1) 52%);
+  
+}
+.pacth{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+
+}
+.box-1 {
+    margin-left:15rem;
+    width: 10rem;
+    height: 15rem;
+    background: linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 52%, 75%, 1) 100%);
+    border-radius: 10px;
+    box-shadow: 0px 12px 27px 0px rgba(52, 50, 50, 0.77);
+}
+.box-2 {
+    margin-left:4rem;
+    margin-top:-14rem;
+    width: 10rem;
+    height: 12.5rem;
+    background: linear-gradient(90deg, hsla(358, 66%, 71%, 1) 0%, hsla(41, 100%, 60%, 1) 100%);
+    border-radius: 10px;
+    box-shadow: 10px 10px 149px -43px rgba(0,0,0,0.85);
+}
+.box-3 {
+    margin-left:26rem;
+    margin-top:-12.5rem;
+    width: 10rem;
+    height: 12.5rem;
+    background: linear-gradient(90deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
+    border-radius: 10px;
+    box-shadow: 10px 10px 149px -43px rgba(0,0,0,0.85);
+}
+h3 {
+    padding-bottom:2rem;
+}
+#icon {
+border-radius: 40px;
+
+
+}
+
+p1 {
+    font-size: 15px;
+    display:flex;
+    margin-top:-1.5rem;
+    margin-right:50px;
+    margin-left:1rem;
+
+}
+p2 {
+    font-size: larger;
+    display:flex;
+    margin-top:-1.5rem;
+    margin-right:50px;
+    margin-left:2.3rem;
+
+}
+p3{
+    font-size: larger;
+    display:flex;
+    margin-left:1rem;
+
+}
+
+p4{
+    font-size: larger;
+    display:flex;
+    margin-left:2.5rem;
+    margin-top:-1.75rem;
+    
+}
+.secondPatch {
+    margin-left:3rem;
+    margin-top:4rem;
+   
+
+}
+#secondPatchBox {
+    width:18rem;
+    height:10rem;
+    background-color:transparent;
+    border-radius: 40px;
+}
+.text1 {
+    display: flex;
+    margin-left:3rem;
+}
+.thirdPatch {
+    margin-left:30rem;
+    margin-top:-12.5rem;
+}
+.thirdPatchBox{
+    width: 18rem;
+    height: 10rem;
+    background-color: transparent;
+    margin-top:1rem;
+}
+.profile{
+   display:inline-flex;
+   margin-left:1.5rem;
+   float: left;
+   margin-top:1rem;
+}
+.nameBox {
+    margin-top:-6rem;
+    margin-right:-9rem;
+    display: flex;
+   
+}
+.name{
+    display:flex;
+    float: left;
+    margin:0px;
+    margin-left:2rem;
+    margin-top: -0.5rem;
+    font-size: small;
+   
+}
+
+.iconShow {
+    display:flex;
+    float: left;
+    margin:10px;
+    margin-left:2.3rem;
+    margin-top: 0.5rem;
+    
+   
+}
+.incomes {
+    margin-top:-6rem;
+    margin-right:-10rem;
+    display: flex;
+}
+.income{
+    display:flex;
+    float: left;
+    margin:0;
+    margin-left:1.2rem;
+    margin-top: -0.5rem;
+}
+ .form {
+ margin-bottom: 7rem;
+
+
+ }
+
+
+ .menu {
+     display: inline-flex;
+     margin-top:2rem;
+     margin-left:1rem;
+ }
+
+
+ .button {
+     display:flex;
+     width: 2rem;
+     height:2rem;
+     margin-top:2rem;
+ }
